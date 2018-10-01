@@ -2,25 +2,11 @@
 /* CSS Document */
 
 
-h1{
-	
-	color: black;
-	position: absolute;
-	font-family: heiti SC;
-	text-align: center;
-}
 
-.kasse{
-	
-	 width: 300px;
-    border: solid black 3px; 
-    padding: 25px;
-    margin: 25px;
-}
-	
+
 body{
 	
-	background-image: url(images/index.jpg);
+	background-image: url(images/index1.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;	
 }
