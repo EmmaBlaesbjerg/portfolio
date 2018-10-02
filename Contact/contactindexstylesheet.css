@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body, html {
+    height: 100%;
+    margin: 0;
+	font-family: heiti SC;
+	background-image: url(../images/background.jpg)
+}
+
+h1{
+	
+	font-size: 100px;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	color: black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.columns {
+    float: left;
+    width: 33.3%;
+    padding-right: 100px;
+	padding-left: 100px;
+	padding-top: 500px;
+	position: relative;
+	display: table-cell;
+}
+.price {
+    list-style-type: none;
+    
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
+
+.price li {
+    
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
+}
+
+.fa-instagram {
+  color: black;
+	  background-color: transparent;
+}
+
+.fa-facebook {
+  color: black;
+	 background-color: transparent;
+}
+.fa-envelope {
+  color: black;
+	 background-color: transparent;
+}
+
+
