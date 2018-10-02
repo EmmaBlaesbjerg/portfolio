@@ -1,9 +1,19 @@
 @charset "UTF-8";
 /* CSS Document */
+body, html {
+    height: 100%;
+    margin: 0;
+}
 
-body{
-	
-	background-image: url(images/index1.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;	
+.bg {
+    /* The image used */
+    background-image: url(images/index1.jpg);
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
