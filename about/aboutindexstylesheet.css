@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+
+ 
+ body {
+    margin: 0;
+    font-family: heiti SC;
+	background-image: url(../images/background.jpg) 
+}
+     
+ .picture{
+    width: 300px;
+    padding: 50px;
+	 padding-left: 300px;
+	 padding-top: 200px;
+    margin: 25px;
+	float: left;
+	position: relative;
+ }
+
+.tekst{
+	width: 500px;
+    padding: 50px;
+	padding-right: 300px;
+	padding-top: 200px;
+    margin: 25px;
+	float: right;
+	position: relative;
+}

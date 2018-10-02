@@ -92,10 +92,8 @@ img {
     padding: 12px 16px;
     font-size: 16px;
     cursor: pointer;
-	 
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;}
+  	position: absolute;
+  	top: 0;}
 
 /* Darker background on mouse-over */
 .btn:hover {
@@ -107,7 +105,6 @@ div.a {
 	margin-bottom: 70px;
 	margin-top: 20px;
 }
-
 
 a:link {
     color: white;

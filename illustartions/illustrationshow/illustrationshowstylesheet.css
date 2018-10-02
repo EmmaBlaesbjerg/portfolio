@@ -28,7 +28,7 @@ img {
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: white;
+  color: black;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -43,12 +43,12 @@ img {
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(247,247,247,0.42);
 }
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: black;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -88,18 +88,16 @@ img {
 .btn {
     background-color: transparent;
     border: none;
-    color: white;
+    color: black;
     padding: 12px 16px;
     font-size: 16px;
     cursor: pointer;
-	 
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;}
+  	position: absolute;
+  	top: 0;}
 
 /* Darker background on mouse-over */
 .btn:hover {
-    background-color: rgba(0,0,0,0.8);
+    background-color: #FFFFFF;
 }
 
 div.a {
@@ -108,9 +106,8 @@ div.a {
 	margin-top: 20px;
 }
 
-
 a:link {
-    color: white;
+    color: black;
     background-color: transparent;
     text-decoration: none;
 }
@@ -133,4 +130,6 @@ a:active {
     background-color: transparent;
     text-decoration: underline;
 }
+
+
 
