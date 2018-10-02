@@ -10,37 +10,31 @@
 
 <body>
 	
-<!-- Load font awesome icons -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<!-- The navigation menu -->
-<div class="navbar">
-  <a href="#home">Home</a>
-	
-	
-	
-  <div class="subnav">
-    <button class="subnavbtn">Projects <i class="fa fa-caret-down"></i></button>
-    <div class="subnav-content">
-      <a href="#company">1.</a>
-      <a href="#team">2.</a>
-      <a href="#careers">3.</a>
-    </div>
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#">Home</a>
+    <a href="#">Projects</a>
+	<a href="#">Photography</a>
+    <a href="#">Illustrations</a>
+	<a href="#">About</a>
+    <a href="#">Contact</a>
   </div>
-	<div class="subnav">
-    <button class="subnavbtn">Photography <i class="fa fa-caret-down"></i></button>
-    <div class="subnav-content">
-      <a href="#link1">Travel</a>
-      <a href="#link2">Personal</a>
-      <a href="#link3">Portraits</a>
-    </div>
-	</div>
-   <a href="#home">Illustartions</a>	
-	<a href="#home">Inspiration</a>
-  <a href="#home">About</a>
-  <a href="#contact">Connect</a>
-	
 </div>
+
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
 	
 </body>
 </html>
