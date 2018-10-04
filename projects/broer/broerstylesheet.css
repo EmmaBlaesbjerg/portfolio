@@ -138,4 +138,19 @@ body {
   }
 }
 	
-	
+/*back buttom*/	
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 25px;
+    font-size: 40px;
+}
+
+a:hover {
+    
+    color: black;
+}
+
+.previous {
+    background-color: transparent;
+	color: black;
