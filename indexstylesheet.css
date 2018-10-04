@@ -38,6 +38,7 @@ body {
 }
 .menu{
 	float: right;
+	padding: 20px;
 }
 
 .overlay-content {
