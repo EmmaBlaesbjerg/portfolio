@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Travel</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="travel2stylesheet.css">
+</head>
+
+<body>
+	<div class="slideshow-container"> 
+	<div class="mySlides fade">
+  <button class="btn"><a href="photograohytravelindex.html"><i class="fa fa-close"></i></a></button>
+  <img src="../../images/photographyimages/travel/IMG_3015.jpg" all="personal" height="800px" width="900px">
+	<div class="a">
+		<br>
+		<h2>Location</h2>
+			<p>Byron Bay, New South Wales, Australia</p>
+		<br>
+		<h2>Description</h2>
+			<p>“I would risk the fall just to know how it feels to fly”</p>
+	</div>
+</div>
+</div>
+
+
+<br>
+
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+	
+</body>
+</html>

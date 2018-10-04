@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Personal</title>
+	<link rel="stylesheet" href="personal9stylesheet.css">
+		<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>	
+
+<body>
+
+<div class="slideshow-container"> 
+<div class="mySlides fade">
+  <button class="btn"><a href="../photograohyindex.html"><i class="fa fa-close"></i></a></button>
+  <img src="../../images/photographyimages/personal/Skærmbillede 2018-09-11 kl. 16.20.38.png" all="personal" height="800px" width="600px">
+		<div class="a">
+		<br>
+		<h2>Location</h2>
+			<p>London, England</p>
+		<br>
+		<h2>Model</h2>
+			<p>Emma Blæsbjerg</p>
+		<br>
+		<h2>Description</h2>
+			<p>“Your life is not yours if you constantly care what others think”</p>
+	</div>
+</div>
+
+
+<br>
+
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+	
+</body>
+</html>

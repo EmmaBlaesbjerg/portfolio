@@ -83,3 +83,19 @@ a:active {
     background-color: transparent;
     text-decoration: underline;
 }
+
+.zoom {
+    
+    background-color: none;
+    transition: transform .2s;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1); /* IE 9 */
+    -webkit-transform: scale(1); /* Safari 3-8 */
+    transform: scale(1.2); 
+}
+
+
+
