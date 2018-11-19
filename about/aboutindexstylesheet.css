@@ -7,7 +7,7 @@ body {
 	font-family: heiti SC;
 	background-image: url(../images/three.jpeg);
 	background-position: center;
-    background-repeat: no-repeat;
+    
     background-size: cover;
 }
 .picture {
@@ -24,11 +24,10 @@ body {
 }
 .tekst {
 	width: 500px;
-
 	padding-right: 15%;
 	padding-left: 70%;
-	padding-top: 10%;
-	margin: 25px;
+	padding-top: 8%;
+	margin: 20px;
 	float: right;
 	position: relative;
 	
